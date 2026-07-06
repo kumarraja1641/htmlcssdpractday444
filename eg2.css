@@ -1,0 +1,22 @@
+ol
+{
+    background-color:orange;
+}
+
+.first ~li
+{
+    background-color:antiquewhite;
+}
+.first +li
+{
+    background-color:green;
+}
+.first +li ~li
+{
+    background-color:cyan;
+}
+.firstlist +h3+li
+{
+    background-color:blueviolet;
+
+}

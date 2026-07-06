@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 ~ p
+        {
+            background-color:aqua;
+
+        }
+   
+        h2 ~ p
+        {
+            background-color:cyan;
+
+        }
+        h1 + p
+        {
+            background-color:orange;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>h1 outside div</h1>
+    <p> p1 outside div</p>
+    <p> p2 ouside div</p>
+    <div> 
+        <h2> h2 is inside div</h2>
+        <p>p1 inside <div></div></p>
+        <p> p2 inside div</p>
+        <h3> h3w inside div</h3>
+    </div>
+    <p>putside div</p>
+    
+</body>
+</html>
